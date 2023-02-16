@@ -7,6 +7,7 @@ from module.VIT import VIT
 
 # Data_Modules
 from dataModule.MNIST import MNIST
+from callback.file_lr import FileLRCallback
 
 # Callbacks
 #from callback.LogTestImageCallback import LogTestImageCallback

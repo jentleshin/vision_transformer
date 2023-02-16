@@ -17,6 +17,10 @@ trainer:
         monitor: val_loss
         mode: min
         patience: 3
+    - class_path: FileLRCallback
+    - class_path: LearningRateMonitor
+      init_args:
+        logging_interval: "step" 
 data:
   data_dir: '/content/data'
   batch_size: 64
